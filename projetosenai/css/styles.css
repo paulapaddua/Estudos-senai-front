@@ -1,0 +1,95 @@
+header img{
+    height: 70px;
+    width: 70px;
+}
+
+main{
+    min-height: 500px;
+}
+
+.container-card{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+
+}
+
+#section-banners img {
+    height: 500px;
+}
+
+#section-vendidos{
+    text-align: center;
+}
+
+#section-vendidos h2{
+    font-weight: bold;
+    padding: 20px;
+
+}
+
+#section-vendidos img{
+    height: 300px;
+    border-radius: 10px;
+}
+
+#section-vendidos .card{
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#voltar-topo{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+}
+
+#section-login{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffff;
+   
+
+
+}
+
+#section-login h1{
+    text-align: center;
+    font-weight: bold;
+
+
+}
+
+#section-login input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+#section-cadastro{
+    padding: 10px;
+    text-align: center;
+    background-color: #ffff;
+    
+}
+
+#form-cadastrar{
+    padding: 50px;
+    display: none;
+}
+
+footer{
+    text-align: center;
+}
+
+footer p{
+    font-weight:bold;
+    padding: 10px;
+}
